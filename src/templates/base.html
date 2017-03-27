@@ -2,7 +2,7 @@
 <!--DOCTYPE html -->
 <html>
 <head>
-<title>{% block head_title %}Unify{% endblock head_title %}</title>
+<title>{% block head_title %}G-Blog{% endblock head_title %}</title>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -33,7 +33,7 @@ fjs.parentNode.insertBefore(js, fjs);
 
 {% include "messages_display.html" %}
 <div class='container'> 
-    <ol class='breadcrumb'>
+    <ol class='breadcrumb' style="background-color: #f05f40;">
         <li><a href='{% url "posts:list" %}'>Home</a></li>
         {% block post_detail_link %}
         {% endblock %}
