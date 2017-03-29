@@ -33,16 +33,16 @@ fjs.parentNode.insertBefore(js, fjs);
 
 {% include "messages_display.html" %}
 <div class='container'> 
-    <ol class='breadcrumb' style="background-color: #f05f40;">
-        <li><a href='{% url "posts:list" %}'>Home</a></li>
+    <ol class='breadcrumb' style="background-color:#8ba753;">
+        <li><a href='{% url "posts:list" %}' style="color:white;">Home</a></li>
         {% block post_detail_link %}
         {% endblock %}
 
         {% if not request.user.is_authenticated %}
-        <li class='pull-right'><a href='{% url "register" %}'>Register</a></li>
-        <li class='pull-right'><a href='{% url "login" %}'>Login</a></li>
+        <li class='pull-right'><a href='{% url "register" %}' style="color:white;">Register</a></li>
+        <li class='pull-right'><a href='{% url "login" %}' style="color:white;">Login</a></li>
         {% else %}
-        <li class='pull-right'><a href='{% url "logout" %}'>Logout</a></li>
+        <li class='pull-right'><a href='{% url "logout" %}' style="color:white;">Logout</a></li>
         {% endif %}
     </ol>
 {% block content %}{% endblock content %}
