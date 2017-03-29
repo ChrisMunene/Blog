@@ -4,12 +4,16 @@
 		"selected_items":
 		[
 			[
-				"list",
-				"list-style-type"
-			],
-			[
 				"back",
 				"background-color"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"list",
+				"list-style-type"
 			],
 			[
 				"read",
@@ -510,10 +514,6 @@
 			[
 				"we",
 				"webm_path"
-			],
-			[
-				"get_form",
-				"get_form_class〔function〕"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "src/templates/base.html",
 			"settings":
 			{
-				"buffer_size": 3616,
+				"buffer_size": 3652,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,7 +539,7 @@
 			"file": "src/static/css/base.css",
 			"settings":
 			{
-				"buffer_size": 146,
+				"buffer_size": 180,
 				"line_ending": "Windows"
 			}
 		},
@@ -555,15 +555,47 @@
 			"file": "src/posts/models.py",
 			"settings":
 			{
-				"buffer_size": 3987,
+				"buffer_size": 3930,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "README.md",
+			"file": "static_cdn/css/base.css",
 			"settings":
 			{
-				"buffer_size": 1,
+				"buffer_size": 204,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/post_detail.html",
+			"settings":
+			{
+				"buffer_size": 3621,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/post_form.html",
+			"settings":
+			{
+				"buffer_size": 548,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/blog/wsgi.py",
+			"settings":
+			{
+				"buffer_size": 476,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/blog/settings.py",
+			"settings":
+			{
+				"buffer_size": 5338,
 				"line_ending": "Windows"
 			}
 		}
@@ -620,6 +652,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/hp/Desktop/Blog-API/Blog-API-with-Django-Rest-Framework/README.md",
 		"/Users/cfe/Desktop/blog-api/requirements.txt",
 		"/Users/cfe/Desktop/blog-api/src/comments/migrations/0002_auto_20160325_2151.py",
 		"/Users/cfe/Desktop/blog/src/posts/models.py",
@@ -746,8 +779,7 @@
 		"/Users/jmitch/Desktop/ogg_convert.py",
 		"/Users/jmitch/Desktop/ecommerce-2/src/templates/navbar.html",
 		"/Users/jmitch/Desktop/ecommerce-2/src/products/templates/products/product_detail.html",
-		"/Users/jmitch/Desktop/ecommerce-2/src/carts/templates/carts/empty_cart.html",
-		"/Users/jmitch/Desktop/ecommerce-2/src/carts/admin.py"
+		"/Users/jmitch/Desktop/ecommerce-2/src/carts/templates/carts/empty_cart.html"
 	],
 	"find":
 	{
@@ -774,6 +806,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"wsgi",
 			"get_transactions",
 			"ProductUpdateView",
 			"delete all",
@@ -900,8 +933,7 @@
 			"create",
 			"create_user",
 			"MemberCreateForm",
-			"Member",
-			"member"
+			"Member"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -934,7 +966,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -942,15 +974,15 @@
 					"file": "src/templates/base.html",
 					"settings":
 					{
-						"buffer_size": 3616,
+						"buffer_size": 3652,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								92,
-								92
+								1240,
+								1240
 							]
 						],
 						"settings":
@@ -960,7 +992,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 239.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -996,15 +1028,15 @@
 					"file": "src/static/css/base.css",
 					"settings":
 					{
-						"buffer_size": 146,
+						"buffer_size": 180,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								146,
-								146
+								33,
+								33
 							]
 						],
 						"settings":
@@ -1048,15 +1080,15 @@
 					"file": "src/posts/models.py",
 					"settings":
 					{
-						"buffer_size": 3987,
+						"buffer_size": 3930,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2148,
-								2148
+								2212,
+								2212
 							]
 						],
 						"settings":
@@ -1073,26 +1105,134 @@
 				},
 				{
 					"buffer": 5,
-					"file": "README.md",
+					"file": "static_cdn/css/base.css",
 					"settings":
 					{
-						"buffer_size": 1,
+						"buffer_size": 204,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								48,
+								48
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/templates/post_detail.html",
+					"settings":
+					{
+						"buffer_size": 3621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								352,
+								352
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/templates/post_form.html",
+					"settings":
+					{
+						"buffer_size": 548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								168,
+								168
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/blog/wsgi.py",
+					"settings":
+					{
+						"buffer_size": 476,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								475,
+								475
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/blog/settings.py",
+					"settings":
+					{
+						"buffer_size": 5338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3517,
+								3517
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1830.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1164,6 +1304,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 383.0,
+	"side_bar_width": 282.0,
 	"status_bar_visible": true
 }
